@@ -42,7 +42,6 @@ while True:
 
         if tweets.data:
             for tweet in tweets.data:
-                global ultimo_tweet_id
 
                 if ultimo_tweet_id is None or tweet.id > ultimo_tweet_id:
                     texto_traducido = traducir(tweet.text)
