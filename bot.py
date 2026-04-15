@@ -13,7 +13,7 @@ API_SECRET = os.getenv("API_SECRET")
 ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
 ACCESS_SECRET = os.getenv("ACCESS_SECRET")
 
-USERNAME_OBJETIVO = "AQUI_EL_USUARIO"
+USERNAME_OBJETIVO = "maxinfo_"
 
 # =========================
 # CLIENTE X (TWITTER)
