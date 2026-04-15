@@ -2,8 +2,6 @@ import time
 import os
 import tweepy
 from openai import OpenAI
-import os
-print("OPENAI KEY:", os.getenv("OPENAI_API_KEY"))
 
 # --- VARIABLES DE ENTORNO ---
 BEARER_TOKEN = os.getenv("BEARER_TOKEN")
